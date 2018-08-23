@@ -8,7 +8,7 @@ ENV GOPATH=/opt/src/ \
     GO_VERSION=1.10.3
 
 ADD https://storage.googleapis.com/golang/go${GO_VERSION}.linux-amd64.tar.gz /opt/tmp/
-ADD ./files/dep-linux-amd /opt/tmp/dep
+ADD ./files/dep-linux-amd64 /opt/tmp/dep
 
 RUN apt-get update && apt-get install -y unzip curl git &&\
     tar -C /opt/ -xzf /opt/tmp/go${GO_VERSION}.linux-amd64.tar.gz &&\
