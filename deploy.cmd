@@ -1,1 +1,1 @@
-git add -A && git commit -m "added GolangNodeJS docker file" && git push
+git add -A && git commit -m "updated golang to version 1.11 from 1.10.3" && git push
