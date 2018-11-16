@@ -1,1 +1,1 @@
-git add -A && git commit -m "updated golang to version 1.11 from 1.10.3" && git push
+git add -A && git commit -m "updated golang v1.11 to 1.11.2 and dart v2.0.0 to 2.1.0, with a dart dev to 2.1.0-dev.9.4" && git push
