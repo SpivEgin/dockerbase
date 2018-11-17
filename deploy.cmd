@@ -1,1 +1,1 @@
-git add -A && git commit -m "moved dartstable to v2.1.0" && git push
+git add -A && git commit -m "fixed tags so master and latest are the same" && git push
