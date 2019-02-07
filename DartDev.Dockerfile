@@ -6,7 +6,7 @@ FROM quay.io/spivegin/tlmbasedebian
 
 
 # Install Dart.
-ENV DART_VERSION 2.1.1-dev.0.1
+ENV DART_VERSION 2.1.1-dev.3.2
 # https://storage.googleapis.com/dart-archive/channels/dev/release/${DART_VERSION}/sdk/dartsdk-linux-x64-release.zip
 RUN mkdir /opt/dart /opt/dart/code /opt/dart/data /opt/dart/bin /opt/dartlang
 RUN apt-get update && apt-get install -y unzip curl git &&\
