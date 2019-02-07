@@ -1,1 +1,3 @@
-git add -A && git commit -m "updated go1.11.5 and dartdev2.1.1-dev.3.2" && git push
+git add -A
+git commit -m "curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -"
+git push
